@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #050110f0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.container span {
+    position: absolute;
+    background-color: whitesmoke;
+    inset: 5px;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.o {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+}
+
+.orbit {
+    width: 200px;
+    height: 200px;
+}
+
+.o1 {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    left: 70px;
+}
+
+.orbit1 {
+    width: 250px;
+    height: 250px;
+    animation-duration: 0.5s;
+}
+.o2 {
+    width: 25px;
+    height: 25px;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+}
+
+.orbit2 {
+    width: 300px;
+    height: 300px;
+    animation-duration: 1s;
+}
+.o3 {
+    width: 30px;
+    height: 30px;
+    background-color: purple;
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+}
+
+.orbit3 {
+    width: 350px;
+    height: 350px;
+    animation-duration: 1.5s;
+}
+.o4 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+}
+
+.orbit4 {
+    width: 400px;
+    height: 400px;
+}
+.o5 {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 140px;
+}
+
+.orbit5 {
+    width: 450px;
+    height: 450px;
+}
+.o6 {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    left: 140px;
+}
+
+.orbit6 {
+    width: 500px;
+    height: 500px;
+}
+
+.o7 {
+    width: 30px;
+    height: 30px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    position: absolute;
+    left: 140px;
+}
+
+.orbit7 {
+    width: 550px;
+    height: 550px;
+}
+.o7 {
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+}
+
+.orbit7 {
+    width: 600px;
+    height: 600px;
+}
+.o8 {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+}
+
+.orbit8 {
+    width: 650px;
+    height: 650px;
+}
+
+.add{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 50%;
+    animation: orbit1 10s linear infinite;
+}
+@keyframes orbit {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0);
+    }
+}
+
+@keyframes orbit1 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0);
+    }
+}
